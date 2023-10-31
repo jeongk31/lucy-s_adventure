@@ -78,15 +78,6 @@
         transform: scale(2);
         transform-origin: 50% 0;
       }
-
-      #mute_button {
-        display: flex;
-        top: 7%;
-        left: 5%;
-        font-size: 7px;
-        height: 15px;
-        padding: 1px 5px;
-      }
       #bathroom_button {
         display: none;
         top: 27%;
@@ -275,7 +266,7 @@
 
   </head>
   <body>
-    <h1>LUCY'S ADVANTURE</h1>
+    <h1>LUCY'S ADVENTURE</h1>
     <div id="game_container">
       <div id="status_bar">
         <div class="status_item">
@@ -317,9 +308,6 @@
         </div>
       </div>
         <div id="canvas_container">
-        <!-- button for mute music -->
-          <button class="button-17" role="button" id="mute_button" onclick="muteRadio(); return false;">MUSIC</button>
-
         <!-- Source for buttons: https://getcssscan.com/css-buttons-examples -->
           <button class="button-17" role="button" id="bathroom_button" onclick="changestate('2'); return false;">Enter Bathroom?</button>
           
